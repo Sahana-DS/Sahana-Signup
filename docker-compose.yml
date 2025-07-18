@@ -36,9 +36,9 @@ services:
       - DB_HOST=postgres
       - DB_USER=postgres
       - DB_NAME=auth_db
-      - DB_PASSWORD=admin123
+      - DB_PASSWORD=admin234
       - DB_PORT=5432
-      - FRONTEND_URL=http://54.166.206.245:8005
+      - FRONTEND_URL=http://54.227.149.186:8005
     volumes:
       - ./Backend:/app
       - ./Backend/server.env:/app/server.env
