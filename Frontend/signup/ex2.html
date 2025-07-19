@@ -642,7 +642,7 @@
                 <button type="submit" id="signupButton" class="form-button" disabled>Sign Up</button>
             </form>
             <div class="links">
-                <a href="http://54.227.149.186:8006/">Already have an account? Login</a>
+                <a href="http://3.86.39.252:8006/">Already have an account? Login</a>
             </div>
         </div>
     </div>
@@ -930,7 +930,7 @@
                 signupButton.disabled = true;
                 signupButton.textContent = 'Signing Up...';
                 
-                const response = await fetch('http://54.227.149.186:3005/signup-data', {
+                const response = await fetch('http://3.86.39.252:3005/signup-data', {
                     method: 'POST',
                     body: formData
                 });

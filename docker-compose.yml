@@ -38,7 +38,7 @@ services:
       - DB_NAME=auth_db
       - DB_PASSWORD=admin234
       - DB_PORT=5432
-      - FRONTEND_URL=http://54.227.149.186:8005
+      - FRONTEND_URL=http://3.86.39.252:8005
     volumes:
       - ./Backend:/app
       - ./Backend/server.env:/app/server.env
